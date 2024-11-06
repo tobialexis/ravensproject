@@ -31,7 +31,7 @@ def build_csv(abv):
         try:
             jersey_num = player['jersey']
         except:
-            jersey_num = 00
+            jersey_num = "NA"
 
         try:
             height = player['displayHeight']
